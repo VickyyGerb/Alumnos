@@ -31,7 +31,7 @@ function enviar() {
   <h1>Formulario Alumnos</h1>
   <br />
   <form action="">
-    <label for="">Nombre</label> <br />
+    <label for="">Insertar nombre:</label> <br />
     <input type="text" v-model="Nombre" /> <br />
     <label for="">Curso</label> <br />
     <input type="text" v-model="Curso" /> <br />
