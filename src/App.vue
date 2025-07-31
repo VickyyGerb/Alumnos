@@ -30,6 +30,7 @@ function enviar() {
 <template>
   <h1>Formulario Alumnos</h1>
   <br />
+  <h1>Ingrese los datos del alumno</h1>
   <form class="formulario" action="">
     <label for="">Nombre:</label> <br />
     <input type="text" v-model="alumno.Nombre" /> <br />
